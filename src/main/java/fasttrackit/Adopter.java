@@ -15,4 +15,9 @@ public class Adopter extends Person{
     {
         System.out.println(personName+" gave some "+ food_.foodName + " to " + animal_.animalName);
     }
+
+    public void Play(Animal _animal, Activity _activity)
+    {
+        System.out.println(personName+" played "+ _activity.activityName + " with " + _animal.animalName);
+    }
 }
