@@ -1,12 +1,12 @@
 package fasttrackit;
 
-public class Vet {
-    String vetName;
+public class Vet extends Person{
     String vetSpeciality;
 
-    public Vet (String name, String speciality)
+    public Vet (String name,int age, String speciality)
     {
-        vetName = name;
+        personName = name;
+        personAge = age;
         vetSpeciality = speciality;
     }
 }

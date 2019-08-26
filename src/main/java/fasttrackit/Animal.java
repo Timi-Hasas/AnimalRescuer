@@ -20,4 +20,5 @@ public class Animal {
         favoriteActivity = activity;
     }
 
+
 }

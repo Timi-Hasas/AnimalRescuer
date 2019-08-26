@@ -4,7 +4,7 @@ package fasttrackit;
 import java.util.Date;
 
 public class Food {
-    String foodName;
+    public String foodName;
     float foodPrice;
     int foodQuantity;
     boolean availability;
